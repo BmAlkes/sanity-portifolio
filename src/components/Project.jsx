@@ -60,7 +60,6 @@ const Project = () => {
                                     </p>
                                     <a
                                         href={project.link}
-                                        rel="noopener noreferrer"
                                         target="_blank"
                                         className="text-blue-500 hover:underline"
                                     >
