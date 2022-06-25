@@ -43,11 +43,7 @@ const Project = () => {
                                 key={index}
                             >
                                 <h3 className="text-gray-800 text-3xl font-bold mb-2 hover:text-blue-500 flex justify-center">
-                                    <a
-                                        href={project.link}
-                                        alt={project.title}
-                                        target="_blank"
-                                    >
+                                    <a href={project.link} alt={project.title}>
                                         {project.title}
                                     </a>
                                 </h3>
@@ -60,7 +56,6 @@ const Project = () => {
                                     </p>
                                     <a
                                         href={project.link}
-                                        target="_blank"
                                         className="text-blue-500 hover:underline"
                                     >
                                         <img
