@@ -19,6 +19,7 @@ const SinglePost = () => {
                 `*[slug.current == '${slug}']{
             title,
             id,
+            slug,
             mainImage{
                 asset->{
                     _id,url
