@@ -33,6 +33,7 @@ const NavBar = () => {
                     </NavLink>
                 </nav>
             </div>
+            <br />
             <div className="container mx-auto flex  justify-between">
                 <div className="inline-flex items-center py-3 ">
                     <SocialIcon
