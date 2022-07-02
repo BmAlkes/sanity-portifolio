@@ -35,12 +35,16 @@ const Project = () => {
                 <h2 className="text-lg text-gray-600 flex justify-center mb-12">
                     Welcome to my Projects page
                 </h2>
-                <section className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <section className="grid md:grid-cols-2 lx:grid-cols-3 gap-8">
                     {projectData &&
                         projectData.map((project, index) => (
                             <article
-                                className="relative rounded-lg shadow-xl bg-white p-17"
+                                className="relative rounded-lg shadow-xl bg-white p-17 SW"
                                 key={index}
+                                style={{
+                                    height: "50vh",
+                                    marginBottom: "10rem",
+                                }}
                             >
                                 <h3 className="text-gray-800 text-3xl font-bold mb-2 hover:text-blue-500 flex justify-center">
                                     <a href={project.link} alt={project.title}>
@@ -61,7 +65,7 @@ const Project = () => {
                                         <img
                                             src={project.mainImage.asset.url}
                                             alt={project.mainImage.alt}
-                                            className="w-full h-full rounded-r object-cover absolute opacity-90"
+                                            className="w-full h-full rounded-r object-cover absolute"
                                         />{" "}
                                     </a>
                                 </div>
