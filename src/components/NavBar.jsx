@@ -30,33 +30,33 @@ const NavBar = () => {
                         className="inline-flex items-center py-3 px-3 my-6 rounded text-white hover:text-blue-300"
                     >
                         About Me!
+                        <div className="inline-flex items-center py-3 ">
+                            <SocialIcon
+                                network="facebook"
+                                url="https://www.facebook.com/bmalkes"
+                                className="mr-4"
+                                style={{ height: 30, width: 30 }}
+                                target="_blank"
+                                fgColor="#fff"
+                            />
+                            <SocialIcon
+                                network="linkedin"
+                                url="https://linkedin.com/in/bmalkes"
+                                className="mr-4"
+                                style={{ height: 30, width: 30 }}
+                                target="_blank"
+                                fgColor="#fff"
+                            />
+                            <SocialIcon
+                                network="github"
+                                url="https://github.com/BmAlkes"
+                                style={{ height: 30, width: 30 }}
+                                target="_blank"
+                                fgColor="#fff"
+                            />
+                        </div>
                     </NavLink>
                 </nav>
-                <div className="inline-flex items-center py-3 ">
-                    <SocialIcon
-                        network="facebook"
-                        url="https://www.facebook.com/bmalkes"
-                        className="mr-4"
-                        style={{ height: 30, width: 30 }}
-                        target="_blank"
-                        fgColor="#fff"
-                    />
-                    <SocialIcon
-                        network="linkedin"
-                        url="https://linkedin.com/in/bmalkes"
-                        className="mr-4"
-                        style={{ height: 30, width: 30 }}
-                        target="_blank"
-                        fgColor="#fff"
-                    />
-                    <SocialIcon
-                        network="github"
-                        url="https://github.com/BmAlkes"
-                        style={{ height: 30, width: 30 }}
-                        target="_blank"
-                        fgColor="#fff"
-                    />
-                </div>
             </div>
         </header>
     );
