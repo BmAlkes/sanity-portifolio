@@ -4,8 +4,11 @@ import { SocialIcon } from "react-social-icons";
 
 const NavBar = () => {
     return (
-        <header className="bg-red-600  flex ">
-            <div className="container mx-auto flex  justify-between">
+        <header className="bg-red-600 ">
+            <div
+                className="container mx-auto flex  justify-between"
+                style={{ alignItems: "center", flexWrap: "wrap" }}
+            >
                 <nav className="flex">
                     <NavLink
                         to="/"
@@ -32,15 +35,12 @@ const NavBar = () => {
                         About Me!
                     </NavLink>
                 </nav>
-            </div>
-            <br />
-            <div className="container mx-auto flex  justify-between">
                 <div className="inline-flex items-center py-3 ">
                     <SocialIcon
                         network="facebook"
                         url="https://www.facebook.com/bmalkes"
                         className="mr-4"
-                        style={{ height: 30, width: 30 }}
+                        style={{ height: 45, width: 45 }}
                         target="_blank"
                         fgColor="#fff"
                     />
@@ -48,14 +48,14 @@ const NavBar = () => {
                         network="linkedin"
                         url="https://linkedin.com/in/bmalkes"
                         className="mr-4"
-                        style={{ height: 30, width: 30 }}
+                        style={{ height: 45, width: 45 }}
                         target="_blank"
                         fgColor="#fff"
                     />
                     <SocialIcon
                         network="github"
                         url="https://github.com/BmAlkes"
-                        style={{ height: 30, width: 30 }}
+                        style={{ height: 45, width: 45 }}
                         target="_blank"
                         fgColor="#fff"
                     />
